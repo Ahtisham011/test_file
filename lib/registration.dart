@@ -11,7 +11,7 @@ class Registration extends StatelessWidget {
     TextEditingController Phone_ctrl = TextEditingController();
     List<Map<String, dynamic>> Users = [];
     return Scaffold(
-      backgroundColor: Colors.green.withValues(alpha: 0.3add),
+      backgroundColor: Colors.green.withValues(alpha: 0.3),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(176, 22, 21, 21),
         title: Center(
